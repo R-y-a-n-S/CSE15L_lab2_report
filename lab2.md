@@ -116,5 +116,5 @@ static int[] reversed(int[] arr) {
 The bug is that the program created an new array full of zeros and tried to copied the zeros into the input array, causing both array to be full of zeros. The fix switch the order, copying values from the input to the new array in a resersed order without changing the input array.  
 
 ## Part 3
-I did not know how to 
+I did not know how to create a website and using the url to control the website. It was pretty informative and useful!
 
