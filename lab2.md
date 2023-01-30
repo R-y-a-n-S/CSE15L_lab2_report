@@ -41,7 +41,14 @@ class myServer {
 }
 
 ```
-![Image](SC1.png)
+
+Screenshot 1
+
+<img src="SC1.png" width="800">
+
+- The main and the handleRequest are called
+- The relevant argument is `url` which changes based on input. The variable `out` is a relevant field in the class since it keep track of the historical inputs. `url.getPath()` and `url.getQuery()` are also relavant inputs since they changes based on input. (see specific value in the next bullet point)
+- After the first call `http://localhost:5000/add-message?s=How%20are%20you`, `url` becomes `/add-message?s=How%20are%20you`, `url.getPath()` becomes `/add-message`, `url.getQuery()` becomes `s=How are you`, and `out` becomes `How are you\n`. Then, after the second call `http://localhost:5000/add-message?s=Goodbye`, `url` becomes `/add-message?s=Goodbye`, `url.getPath()` becomes `/add-message`, `url.getQuery()` becomes `s=Goodbye`, and `out` becomes `How are you\nGoodbye\n`.
 
 ## Part 2 
 The following refers to the reversed method in Array.
@@ -73,6 +80,8 @@ public class ArrayTests {
   }
 }
 ```
+- The symptom
+
 - Before fix:
 ```
 static int[] reversed(int[] arr) {
