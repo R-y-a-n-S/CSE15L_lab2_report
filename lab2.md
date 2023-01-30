@@ -41,6 +41,8 @@ class myServer {
 }
 
 ```
+![Image](SC1.png)
+
 ## Part 2 
 The following refers to the reversed method in Array.
 - Failure inducing input: 
