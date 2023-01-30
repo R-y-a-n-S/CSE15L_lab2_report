@@ -80,7 +80,10 @@ public class ArrayTests {
   }
 }
 ```
-- The symptom
+- The symptom:
+
+<img src="succ.png" width="800">
+<img src="fail.png" width="800">
 
 - Before fix:
 ```
