@@ -83,7 +83,7 @@ public class ArrayTests {
 - The symptom:
 
 <img src="succ.png" width="800">
-<img src="fail.png" width="800">
+<img src="haha.png" width="800">
 
 - Before fix:
 ```
@@ -100,9 +100,10 @@ static int[] reversed(int[] arr) {
 static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
     for(int i = 0; i < arr.length; i += 1) {
-      newArray[arr.length - i - 1] = arr[i];
       newArray[i] = arr[arr.length - i - 1];
     }
     return newArray;
   }
 ```
+The bug is that the program created an new array full of zeros and tried to copied the zeros into the input array, causing both array to be full of zeros. The fix switch the order, copying values from the input to the new array in a resersed order without changing the input array.  
+
