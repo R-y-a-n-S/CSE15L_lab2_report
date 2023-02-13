@@ -116,5 +116,5 @@ static int[] reversed(int[] arr) {
 The bug is that the program created an new array full of zeros and tried to copied the zeros into the input array, causing both array to be full of zeros. The fix switch the order, copying values from the input to the new array in a resersed order without changing the input array.  
 
 ## Part 3
-I did not know how to create a website and using the url to control the website. After this lab , I learnt how to write java files that could start a webpage with a designated server. Specifically, how to write the url handler and got to know teh structure of the Server file. It is important because it introduces me to the world of developing web applications. 
+I did not know how to create a website and using the url to control the website. After this lab , I learnt how to write java files that could start a webpage with a designated server. Specifically, how to write the url handler and got to know the structure of the Server file. It is important because it introduces me to the world of developing web applications. I am able to understand what different portion of the url means and extract necessary  information. I also learnt to start the web page on a remote server. It is important becuase it laies the foundation of 
 
